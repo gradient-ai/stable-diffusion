@@ -1,0 +1,16 @@
+image: paperspace/stable-diffusion-webui-deployment:v1
+port: 7860
+command:
+  - python
+  - webui.py
+  - '--share'
+  - '--autolaunch'
+  - '--listen'
+  - '--port'
+  - '7860'
+env:
+  - name: ENV
+    value: VAR
+resources:
+  replicas: 1
+  instanceType: A4000
