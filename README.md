@@ -1,6 +1,6 @@
 # Stable Diffusion
 
-[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/gradient-ai/stable-diffusion/blob/main/stable-diffusion-notebook.ipynb?machine=Free-GPU)
+[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/gradient-ai/stable-diffusion?machine=A4000)
 
 _Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://stability.ai/) and [Runway](https://runwayml.com/) and builds upon our previous work:_
 
