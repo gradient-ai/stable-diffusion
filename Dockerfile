@@ -27,6 +27,7 @@ RUN mv v1-5-pruned-emaonly.ckpt models/model.ckpt
 RUN rm -r repositories
 RUN mkdir repositories
 RUN git clone https://github.com/CompVis/stable-diffusion /repositories/stable-diffusion
+RUN git pull
 
 WORKDIR ../
 
