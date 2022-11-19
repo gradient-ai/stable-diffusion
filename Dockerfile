@@ -25,6 +25,5 @@ RUN rm -r repositories
 RUN mkdir repositories
 RUN git clone https://github.com/CompVis/stable-diffusion /repositories/stable-diffusion
 
-WORKDIR ../
 
 EXPOSE 8888
