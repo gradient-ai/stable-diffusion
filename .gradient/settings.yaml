@@ -1,0 +1,4 @@
+integrations:
+  stable-diffusion-classic:
+    type: dataset
+    ref: paperspace/ds7isjs9l5q2m3j:latest
