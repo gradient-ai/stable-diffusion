@@ -1,4 +1,4 @@
-git clone git@github.com:adobe-research/custom-diffusion.git
+git clone https://github.com/adobe-research/custom-diffusion
 cd custom-diffusion
 git clone https://github.com/CompVis/stable-diffusion.git
 cd stable-diffusion
