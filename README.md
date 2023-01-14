@@ -2,6 +2,13 @@
 
 [![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/gradient-ai/stable-diffusion?machine=A4000)
 
+This repo contains notebook files to run the following Latent Diffusion Model derived techniques within a Gradient Notebook:
+
+- Stable Diffusion
+- Dreambooth
+- Textual Inversion
+- Custom Diffusion
+
 _Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://stability.ai/) and [Runway](https://runwayml.com/) and builds upon our previous work:_
 
 [**High-Resolution Image Synthesis with Latent Diffusion Models**](https://ommer-lab.com/research/latent-diffusion-models/)<br/>
