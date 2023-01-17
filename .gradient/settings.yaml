@@ -3,7 +3,7 @@ integrations:
     type: dataset
     ref: paperspace/ds7isjs9l5q2m3j:latest
   stable-diffusion-v2-1: 
-    type:
+    type: dataset
     ref: paperspace/dsq9ftjo24ou0ji:latest
   stable-diffusion-classic:
     type: dataset
