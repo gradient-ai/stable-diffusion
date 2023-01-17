@@ -1,16 +1,16 @@
 integrations:
   stable-diffusion-classic:
     type: dataset
-    ref: paperspace/ds7isjs9l5q2m3j:rt1wuwy
+    ref: paperspace/ds7isjs9l5q2m3j:latest
   stable-diffusion-v2-1:
     type: dataset
-    ref: paperspace/dsq9ftjo24ou0ji:1q23w4u
+    ref: paperspace/dsq9ftjo24ou0ji:latest
   stable-diffusion-diffusers-v2:
     type: dataset
-    ref: paperspace/dsip85mcg4dhe8e:tijl1c8
+    ref: paperspace/dsip85mcg4dhe8e:latest
   stable-diffusion-classic-v2:
     type: dataset
-    ref: paperspace/dsk2jb016aes4uq:mhsj3fc
+    ref: paperspace/dsk2jb016aes4uq:latest
   stable-diffusion-diffusers:
     type: dataset
-    ref: paperspace/dsj70qb5x6u9stk:qfctr9i
+    ref: paperspace/dsj70qb5x6u9stk:latest
