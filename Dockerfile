@@ -23,4 +23,4 @@ RUN git clone https://github.com/TencentARC/GFPGAN.git /repositories/GFPGAN
 
 EXPOSE 7860
 
-RUN python launch.py --autolaunch --listen --enable-insecure-extension-access --api --port 7860
+CMD python launch.py --autolaunch --listen --enable-insecure-extension-access --api --port 7860
