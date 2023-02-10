@@ -1,7 +1,7 @@
 integrations:
   stable-diffusion-classic:
     type: dataset
-    ref: paperspace/ds7isjs9l5q2m3j:rt1wuwy
+    ref: paperspace/ds7isjs9l5q2m3j:a7gnyeh
   stable-diffusion-v2-1:
     type: dataset
     ref: paperspace/dsq9ftjo24ou0ji:1q23w4u
