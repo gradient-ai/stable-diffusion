@@ -1,4 +1,7 @@
 integrations:
+  stable-diffusion-v2-1-base-diffusers:
+    type: dataset
+    ref: paperspace/dsq06vmkcmyn3se:latest
   stable-diffusion-classic:
     type: dataset
     ref: paperspace/ds7isjs9l5q2m3j:latest
