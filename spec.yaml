@@ -1,16 +1,26 @@
-image: paperspace/stable-diffusion-webui-deployment:v1
+image: paperspace/stable-diffusion-webui-deployment:v1.1
 port: 7860
 command:
   - python
-  - webui.py
+  - launch.py
   - '--share'
   - '--autolaunch'
   - '--listen'
+  - '--enable-insecure-extension-access'
   - '--port'
   - '7860'
+  - '--ckpt'
+  - ../opt/mo4a5gkc13ccrl/v1-5-pruned-emaonly.ckpt
 env:
-  - name: ENV
-    value: VAR
+  - name: MODEL_NAME
+    value: stable-diffusion-classic
+  - name: MODEL_FILE
+    value: v1-5-pruned-emaonly.ckpt
+  - name: MODEL_DIR
+    value: /opt/mo4a5gkc13ccrl
+models:
+  - id: mo4a5gkc13ccrl
+    path: /opt/mo4a5gkc13ccrl
 resources:
   replicas: 1
-  instanceType: A4000
+  instanceType: A4000 # <-- we recommend the A4000 or A5000
