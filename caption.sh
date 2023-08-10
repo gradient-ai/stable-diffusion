@@ -38,5 +38,5 @@ python finetune/merge_captions_tag.py "${images_folder}"
 
 cd /notebooks
 
-find "${images_folder}" -type f ! \( -name '*.png' -o -name '*.jpg' -o -name '*.jpeg' \) -delete
+find "${images_folder}" -type f ! \( -name '*.png' -o -name '*.jpg' -o -name '*.jpeg' -name '*.PNG' -o -name '*.JPG' -o -name '*.JPEG' -o -name '*.txt' \) -delete
 rm -r "${images_folder}/.ipynb_checkpoints"
